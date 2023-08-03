@@ -1,0 +1,90 @@
+body{
+    background-color: rgb(126, 126, 126);
+ }
+
+
+.labels{
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.buttons{
+    padding: 0;
+    height: 30px;
+    width: 120px;
+    position: relative;
+    left: 0;
+    outline: none;
+    border: 3px solid #82c3e2;
+    border-color: #82c3e2;
+    background-color: white;
+    font-size: 16px;
+    border-radius: 1cm;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.inputFields{
+    padding: 0;
+    height: 30px;
+    width: 320px;
+    position: relative;
+    left: 0;
+    outline: none;
+    border: 3px solid #82c3e2;
+    border-color: #82c3e2;
+    background-color: white;
+    font-size: 20px;
+    border-radius: 1cm;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+#calcDiv{
+    padding: 10px;
+    margin: auto;
+    left: 0;
+    height: 490px;
+    width: 550px;
+    outline: none;
+    border: 3px solid #cdcdcd;
+    border-color: rgba(24, 20, 23, 0.726);
+    background-color: white;
+    font-size: 16px;
+    text-align: center;
+    background-color: rgba(37, 37, 37, 0.726);
+    border-radius: 1cm;
+}
+
+#calcDivCircle{
+    padding: 10px;
+    margin: auto;
+    position: relative;
+    left: 0;
+    height: 420px;
+    width: 550px;
+    outline: none;
+    border: 3px solid #cdcdcd;
+    border-color: rgba(24, 20, 23, 0.726);
+    background-color: white;
+    font-size: 16px;
+    text-align: center;
+    background-color: rgba(37, 37, 37, 0.726);
+    border-radius: 1cm;
+}
+
+#titleDiv{
+    padding: 0;
+    position: relative;
+    left: 0;
+    height: 80px;
+    outline: none;
+    border: 3px solid #cdcdcd;
+    border-color: rgba(24, 20, 23, 0.726);
+    background-color: white;
+    font-size: 16px;
+    text-align: center;
+    background-color: rgba(24, 20, 23, 0.726);
+}
