@@ -1,0 +1,159 @@
+body, html{
+    background-color: #38c299;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+ }
+ 
+.buttons{
+    font-size: 20px;
+    border-radius: 3cm;
+    padding: 2;
+    font-weight: bolder;
+    border-top: 0;
+    border-color: #d3caca;
+    border-width: 3px;
+    transform: translate(242px, 60px);
+    text-align: center;
+    
+}
+
+#selectionDiv{
+    background-color: #231B1B;
+    height: 100vh;
+    width: 100%;
+    margin: auto;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+
+    box-sizing: border-box;
+}
+
+#titleText{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#infoText{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transform: translate(0px, 54px);
+    
+}
+
+#calcText{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transform: translate(0px, 10px);
+    font-size: 20px;
+    padding: 1;
+}
+
+#calcText2{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transform: translate(0px, 2px);
+    font-size: 20px;
+}
+
+#warningText{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transform: translate(0px, 70px);
+    font-size: 20px;
+    padding: 1;
+}
+
+.innerDiv{
+    width: 600px;
+    height: 260px;
+    background-color: #161212;
+    margin: auto;
+    transform: translate(0px, 70px);
+    border-radius: 1cm;
+    
+}
+.innerDiv2{
+    width: 600px;
+    height: 180px;
+    background-color: #161212;
+    margin: auto;
+    transform: translate(0px, 80px);
+    border-radius: 1cm;
+    
+}
+#elementInput{
+    transform: translate(40px, 50px);
+    font-size: 20px;
+    border-radius: 1cm;
+    text-align: center;
+    border-width: 0;
+
+}
+#elementShardInput{
+    transform: translate(65px, 50px);
+    font-size: 20px;
+    border-radius: 1cm;
+    text-align: center;
+    border-width: 0;
+
+}
+#radiusInput{
+    transform: translate(40px, 60px);
+    font-size: 20px;
+    border-radius: 1cm;
+    width: 520px;
+    text-align: center;
+    border-width: 0;
+    
+}
+#imageElement{
+    width: 70px;
+    transform: translate(265px, -15.6px);
+}
+
+
+.calcButton{
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #c7ffe9 0, #38c299 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+  transform: translate(245px, 50px);
+}
+

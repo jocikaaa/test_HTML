@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+
+<body>
+    
+    <h1 id="titleText">TEK Generator Calculator</h1>
+    
+    <div id="selectionDiv">
+       <div class="innerDiv">
+           <input type="text" id="elementInput" placeholder="Element...?">
+           <input type="text" id="elementShardInput" placeholder="Shards...?"><br>
+           <input type="text" id="radiusInput" placeholder="Radius...?">
+           <p id="infoText">Calculator Assumes that Fuel Consumption Rate is 1</p>
+           <p id="infoText">Max Radius is 10</p>
+           <button type="button" class="calcButton" id="calcButton">Calculate!</button>
+
+        </div>
+
+        <div class="innerDiv2">
+         <p id="calcText">Time Left:</p>
+         <p id="calcText2"></p>
+         <img src="Element.png" id="imageElement">
+         
+        </div>
+        <p id="warningText">For now you can only calculate radius as an integer.</p>
+    </div>
+    
+    <script src="index.js"></script> 
+   
+</body>
+
+</html>
