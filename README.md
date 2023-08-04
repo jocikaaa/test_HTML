@@ -1,3 +1,2 @@
-# test_HTML
-Something i wrote in an hour to refresh my knowledge of JS, CSS and HTML. Nothing special just a few lines of code
-I am planning however to expand upon this to make a very intuitive web calculator that can do a lot more than this.
+# Small HTML Projects
+Small projects i make in my free time. Feel free to use them for your own needs.
