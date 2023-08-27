@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <div class="container">
+        <div class="board2" id="board2">
+            <div class="cellInfo">
+                <p class="turnText" id="turnText">X Turn</p>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="board" id="board">
+        <div class="cell" onclick="makeMove(this)"></div>
+        <div class="cell" onclick="makeMove(this)"></div>
+        <div class="cell" onclick="makeMove(this)"></div>
+        <div class="cell" onclick="makeMove(this)"></div>
+        <div class="cell" onclick="makeMove(this)"></div>
+        <div class="cell" onclick="makeMove(this)"></div>
+        <div class="cell" onclick="makeMove(this)"></div>
+        <div class="cell" onclick="makeMove(this)"></div>
+        <div class="cell" onclick="makeMove(this)"></div>
+
+        
+    </div>
+
+    <div class="container2">
+        <div class="board3" id="board3">
+            <div class="cellInfoPoints">
+                <p class="xwins" id="xwins">X Wins <br> 0</p> 
+
+                <p class="draw" id="draw">Draws <br> 0</p>
+
+                <p class="owins" id="owins">O Wins <br> 0</p>
+ 
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+

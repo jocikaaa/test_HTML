@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@800&display=swap');
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 120px;
+}
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+    margin-top: 50px;
+}
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 15px;
+    width: 306px;
+    margin: auto;
+    margin-top: 70px;
+    justify-content: center;
+    align-items: center;
+}
+.board2 {
+    width: 306px;
+    margin: auto;
+    justify-content: center;
+}
+.cellInfo{
+    width: 180px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 39px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: 'Mukta', sans-serif;
+    font-weight: bolder;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 1);
+    background-color: rgb(33, 60, 73);  
+    color: white;
+    
+}
+
+.cellInfoPoints{
+    width: 360px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 29px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: 'Mukta', sans-serif;
+    font-weight: bolder;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 1);
+    background-color: rgb(33, 60, 73);  
+    color: white;
+    
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    background-color: rgb(33, 60, 73); 
+    align-items: center;
+    justify-content: center;
+    font-size: 93px;
+    cursor: pointer;
+    border-radius: 12px;
+    font-family: 'Mukta', sans-serif;
+    font-weight: bolder;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+.textBoxHolder {
+    font-size: 25px;
+    justify-content: center;
+    margin: auto;
+    font-weight: bolder;
+
+}
+
+body{
+    background: linear-gradient(to bottom, rgb(34, 56, 66), rgb(18, 30, 36));
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.xwins{
+    padding: 10px;
+    text-align: center;
+}
+
+.draw{
+    padding: 15px;
+    text-align: center;
+}
+
+.owins{
+    padding: 15px;
+    text-align: center;
+}
+
