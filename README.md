@@ -7,3 +7,9 @@ Small projects i make in my free time. Feel free to use them for your own needs.
 
 ## Being Worked On:
 - Weather App (Showing Weather in a city, using an API to get the Data)
+
+
+
+## Active Project
+This project is available live on this link: https://jocikaapps.000webhostapp.com/
+- Tic Tac Toe Game
